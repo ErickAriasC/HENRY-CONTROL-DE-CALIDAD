@@ -155,3 +155,24 @@ main{
     color: #007400;
     border: 1px solid #007400;
 }
+
+.container_certification{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #03490382;
+    padding: 2rem 0 2rem 0;
+    gap: 1rem;
+}
+
+.container_certification>h2{
+    color: #007400;
+}
+
+.container_certification>p{
+    width: 80%;
+    height: auto;
+    text-align: justify;
+}
