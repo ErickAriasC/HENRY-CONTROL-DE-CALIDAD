@@ -97,7 +97,7 @@ main{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 2rem;
+    padding: 2rem 0 2rem 0;
     background-color: #03490382;
 }
 
@@ -120,4 +120,38 @@ main{
     color: #007400;
 }
 
+.container_implementation{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 2rem 0;
+    background-color: #eeffee;
+}
 
+.information_implementation{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.information_implementation>h2{
+    color: #007400;
+}
+
+.information_implementation>p{
+    width: 35rem;
+    color: #84a884;
+    text-align: justify;
+}
+
+.information_implementation>a{
+    width: 5.5rem;
+    padding: 0.5rem;
+    text-align: center;
+    color: #007400;
+    border: 1px solid #007400;
+}
