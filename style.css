@@ -253,3 +253,19 @@ input,textarea{
 input:focus,textarea:focus{
     border: 2px solid #00ee00 ;
 }
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #84a884;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer>h3{
+    width: auto;
+    height: auto;
+    padding: 1rem 0 1rem 0;
+
+}
