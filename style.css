@@ -176,3 +176,80 @@ main{
     height: auto;
     text-align: justify;
 }
+
+.container_contact{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 0 2rem 0;
+    background-image: url('img/fondo\ contact.png') ;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.165); /* Color de fondo con opacidad */
+    
+}
+label{
+    color: #84a884;
+}
+
+.container_contact p{
+    color: #84a884;
+
+}
+.container_contact>h2{
+    color: #007400;
+}
+
+.container_contact>.part_1{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.container_contact>.part_1>div{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#full_name{
+    margin-bottom:1rem ;
+}
+
+.container_contact>.part_1>p{
+    width: 50%;
+    height: auto;
+    text-align: justify;
+}
+
+.container_contact>.part_2{
+    width: 75.5%;
+    height: auto;
+}
+
+#message{
+    width: 100%;
+    height: auto;
+}
+
+#message::placeholder{
+    color: aliceblue;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+input,textarea{
+    border: 1px solid #007400 ;
+    outline: none;
+    background-color: #0074002b;
+}
+
+input:focus,textarea:focus{
+    border: 2px solid #00ee00 ;
+}
