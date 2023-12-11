@@ -1,19 +1,20 @@
-*{
+* {
     margin: 0;
     padding: 0;
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a{
-   
+a {
+
     text-decoration: none;
 }
-li{
+
+li {
     list-style: none;
 }
 
-body{
+body {
     width: 100%;
     height: 100%;
     display: flex;
@@ -21,7 +22,7 @@ body{
     align-items: center;
 }
 
-header{
+header {
     width: 100%;
     height: auto;
     display: flex;
@@ -29,7 +30,7 @@ header{
     align-items: center;
 }
 
-.nav_bar{
+.nav_bar {
     width: 100%;
     height: 11%;
     display: flex;
@@ -39,43 +40,61 @@ header{
     background-color: #034903cd
 }
 
-.container_logo{
-    width: 50%;
-    height: auto;
-    display: flex;
-    justify-content:center ;
-    align-items: center;
-
-}
-
-.nav_bar>.container_logo>img{
-    width: 10rem;
-    height: auto;
-    margin: 1rem 0 1rem 0;
-}
-
-.nav_bar>ul{
+.container_logo {
     width: 50%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:3rem;
+
 }
 
-.content_tittle{
+.nav_bar>.container_logo>img {
+    width: 10rem;
+    height: auto;
+    margin: 1rem 0 1rem 0;
+}
+
+.nav_bar>.ul_options {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+#menu_hamburguesa{
+    position: absolute;
+    top: auto;
+    right: 3.5rem;
+    background-color: transparent;
+    border: none;
+    display: none;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+#menu_hamburguesa>img{
+    width: 2rem;
+    height: auto;
+}
+
+
+.content_tittle {
     width: 100%;
     height: 28rem;
 }
 
-.content_tittle>img{
+.content_tittle>img {
     width: 100%;
     height: 28rem;
     object-fit: cover;
     opacity: 20%;
 }
 
-.content_tittle>h1{
+.content_tittle>h1 {
     font-size: 3.5rem;
     text-align: center;
     position: relative;
@@ -83,7 +102,7 @@ header{
     color: #007400;
 }
 
-main{
+main {
     width: 100%;
     height: auto;
     display: flex;
@@ -91,7 +110,7 @@ main{
     align-items: center;
 }
 
-.container_concepts{
+.container_concepts {
     width: 100%;
     height: auto;
     display: flex;
@@ -101,7 +120,7 @@ main{
     background-color: #03490382;
 }
 
-.concept{
+.concept {
     width: 20%;
     height: auto;
     display: flex;
@@ -112,15 +131,15 @@ main{
 
 }
 
-.concept>img{
+.concept>img {
     width: 3rem;
 }
 
-.concept>h3{
+.concept>h3 {
     color: #007400;
 }
 
-.container_implementation{
+.container_implementation {
     width: 100%;
     height: auto;
     display: flex;
@@ -130,7 +149,7 @@ main{
     background-color: #eeffee;
 }
 
-.information_implementation{
+.information_implementation {
     width: 50%;
     height: auto;
     display: flex;
@@ -138,17 +157,17 @@ main{
     gap: 1rem;
 }
 
-.information_implementation>h2{
+.information_implementation>h2 {
     color: #007400;
 }
 
-.information_implementation>p{
+.information_implementation>p {
     width: 35rem;
     color: #84a884;
     text-align: justify;
 }
 
-.information_implementation>a{
+.information_implementation>a {
     width: 5.5rem;
     padding: 0.5rem;
     text-align: center;
@@ -156,7 +175,7 @@ main{
     border: 1px solid #007400;
 }
 
-.container_certification{
+.container_certification {
     width: 100%;
     height: auto;
     display: flex;
@@ -167,17 +186,17 @@ main{
     gap: 1rem;
 }
 
-.container_certification>h2{
+.container_certification>h2 {
     color: #007400;
 }
 
-.container_certification>p{
+.container_certification>p {
     width: 80%;
     height: auto;
     text-align: justify;
 }
 
-.container_contact{
+.container_contact {
     width: 100%;
     height: auto;
     display: flex;
@@ -185,76 +204,81 @@ main{
     align-items: center;
     gap: 1rem;
     padding: 2rem 0 2rem 0;
-    background-image: url('img/fondo\ contact.png') ;
+    background-image: url('img/fondo\ contact.png');
     background-size: cover;
-    background-color: rgba(255, 255, 255, 0.165); /* Color de fondo con opacidad */
-    
+    background-color: rgba(255, 255, 255, 0.165);
+    /* Color de fondo con opacidad */
+
 }
-label{
+
+label {
     color: #84a884;
 }
 
-.container_contact p{
+.container_contact p {
     color: #84a884;
 
 }
-.container_contact>h2{
+
+.container_contact>h2 {
     color: #007400;
 }
 
-.container_contact>.part_1{
+.container_contact>.part_1 {
     width: 80%;
     height: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+
 }
 
-.container_contact>.part_1>div{
+.container_contact>.part_1>div {
     width: 40%;
     height: auto;
     display: flex;
     flex-direction: column;
 }
 
-#full_name{
-    margin-bottom:1rem ;
+#full_name {
+    margin-bottom: 1rem;
 }
 
-.container_contact>.part_1>p{
+.container_contact>.part_1>p {
     width: 50%;
     height: auto;
     text-align: justify;
 }
 
-.container_contact>.part_2{
+.container_contact>.part_2 {
     width: 75.5%;
     height: auto;
 }
 
-#message{
+#message {
     width: 100%;
     height: auto;
 }
 
-#message::placeholder{
-    color: aliceblue;
+#message::placeholder {
+    color: #f0f8ff;
     padding-top: 0.5rem;
     padding-left: 0.5rem;
 }
 
-input,textarea{
-    border: 1px solid #007400 ;
+input,
+textarea {
+    border: 1px solid #007400;
     outline: none;
     background-color: #0074002b;
 }
 
-input:focus,textarea:focus{
-    border: 2px solid #00ee00 ;
+input:focus,
+textarea:focus {
+    border: 2px solid #00ee00;
 }
 
-footer{
+footer {
     width: 100%;
     height: auto;
     background-color: #84a884;
@@ -263,9 +287,84 @@ footer{
     align-items: center;
 }
 
-footer>h3{
+footer>h3 {
     width: auto;
     height: auto;
     padding: 1rem 0 1rem 0;
 
+}
+
+/* @medias */
+
+@media (max-width:1279px) {
+    .container_logo {
+        width: 10%;
+    }
+
+    .content_tittle>h1 {
+        top: -14rem;
+    }
+
+    .container_implementation {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .information_implementation>p {
+        width: 29rem;
+    }
+
+    .information_implementation {
+        align-items: center;
+    }
+}
+
+@media (max-width:920px) {
+    .nav_bar>.ul_options {
+        gap: 1.5rem;
+    }
+
+    .content_tittle>h1 {
+        font-size: 3rem;
+    }
+
+}
+
+@media (max-width: 768px){
+    .nav_bar>.ul_options {
+        flex-direction: column;
+        position: absolute;   
+        top: 5.25rem;
+        right:0rem;
+        background-color: #034903cd;
+        width: 150px;
+        padding: 1rem 0 1rem 0;
+        display: none;
+
+    }
+
+    .content_tittle>h1 {
+        font-size: 2.5rem;
+        z-index: -1;
+        top: -16rem;
+
+    }
+
+
+    .nav_bar>.container_logo>img {
+        margin-left: 3rem;
+    }
+
+    iframe{
+        width: 400px;
+    }
+
+    #menu_hamburguesa{
+        display: flex;
+    }
+
+    .nav_bar>.container_logo>img {
+        margin-left: 0;
+        margin-right: 9rem;
+    }
 }
